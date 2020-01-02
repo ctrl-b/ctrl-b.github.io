@@ -1,0 +1,69 @@
+$background-color: $background
+$font-color: $foreground
+$links: $purple
+
+$a-tags: 'a, a:visited'
+$a-tags-hover: 'a:active, a:hover'
+$font-family: 'Roboto Mono'
+
+//html
+//    font-size: 16px
+body
+    background-color: $background-color
+    color: $font-color
+    font-family: $font-family
+
+#{$a-tags}
+    color: $links
+    text-decoration: none
+
+#{$a-tags-hover}
+    color: darken($links, 8%)
+    text-decoration: underline
+
+.links-top
+    margin-bottom: 1rem
+    display: inline-block
+
+.intro
+    align-self: flex-end
+//.notes-list
+
+hr
+    margin-bottom: 2rem
+    border-top: 1px dotted lighten($background-color, 16%)
+    border-bottom: 1px dotted $background-color
+
+.bio
+    font-size: 1rem
+    line-height: 2rem
+    p
+        @include sm
+            font-size: 1.5rem
+            line-height: 2.5rem
+.post-list
+    margin-top: 3rem
+.post-meta
+    color: $comment
+    margin-bottom: .5rem
+    display: block
+
+.highlight
+    margin-bottom: 1rem
+    pre
+        padding: 1rem
+    code
+        span
+            display: inline-block
+            margin-bottom: .5rem
+.links
+    list-style-type: none
+    color: $comment
+    @include sm
+        padding: 0
+    li
+        margin-bottom: 1.5rem
+        @include sm
+            display: inline
+            padding-right: .5rem
+

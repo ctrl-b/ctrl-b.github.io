@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="slide_wrapper">
+        <div class="slide_content">
+            <div class="intro">
+                <div class="bio">
+                    {{ content }}
+                </div>
+                {%- include footer.html -%}
+            </div>
+        </div>
+    </div>
+
+  </body>
+
+</html>
+
