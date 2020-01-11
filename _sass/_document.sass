@@ -1,0 +1,25 @@
+$a-tags: 'a, a:visited'
+$a-tags-hover: 'a:active, a:hover'
+$font-family: 'Roboto Mono'
+
+//html
+//    font-size: 16px
+body
+    background-color: $background-color
+    color: $font-color
+    font-family: $font-family
+hr
+    margin-bottom: 2rem
+    border-top: 1px dotted lighten($background-color, 16%)
+    border-bottom: 1px dotted $background-color
+
+
+#{$a-tags}
+    color: $links
+    text-decoration: none
+
+#{$a-tags-hover}
+    color: darken($links, 8%)
+    text-decoration: underline
+
+

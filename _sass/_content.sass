@@ -1,3 +1,17 @@
+.links-top
+    margin-bottom: 1rem
+    display: inline-block
+.links
+    list-style-type: none
+    color: $comment
+    @include sm
+        padding: 0
+    li
+        margin-bottom: 1.5rem
+        @include sm
+            display: inline
+            padding-right: .5rem
+
 .wrapper
     display: grid
     column-gap: 1rem
@@ -20,6 +34,13 @@
     p
         margin-bottom: .5rem
         line-height: 1.5rem
+    .post-list
+        margin-top: 3rem
+    .post-meta
+        color: $comment
+        margin-bottom: .5rem
+        display: block
+
 
 .post-content
     margin-bottom: 1rem
@@ -46,21 +67,28 @@
             vertical-align: -0.4em
         p
             display: inline
-
-.button
-    display: inline-block
-    text-align: center
-    line-height: 1rem
-    cursor: pointer
-    -webkit-appearance: none
-    transition: background-color .25s ease-out,color .25s ease-out
-    vertical-align: middle
-    border: 1px solid transparent
-    padding: .85em 1em
-    margin: 0 0 1rem
-    font-size: .9rem
-    background-color: #4CAF50
-    color: #fff !important
-    &:visited
+    .button
+        display: inline-block
+        text-align: center
+        line-height: 1rem
+        cursor: pointer
+        -webkit-appearance: none
+        transition: background-color .25s ease-out,color .25s ease-out
+        vertical-align: middle
+        border: 1px solid transparent
+        padding: .85em 1em
+        margin: 0 0 1rem
+        font-size: .9rem
+        background-color: #4CAF50
         color: #fff !important
+        &:visited
+            color: #fff !important
+    .highlight
+        margin-bottom: 1rem
+        pre
+            padding: 1rem
+        code
+            span
+                display: inline-block
+                margin-bottom: .5rem
 
