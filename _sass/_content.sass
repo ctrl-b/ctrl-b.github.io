@@ -13,14 +13,16 @@
             padding-right: .5rem
 
 .wrapper
-    display: grid
-    column-gap: 1rem
-    row-gap: 1rem
+//    display: grid
+   column-gap: 1rem
+    row-gap: 1rem/
     @include sm
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 50rem))
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 50rem))
 
 .content
-    margin: 1rem
+    margin: 1.5rem auto
+    padding: 0 1rem
+    max-width: 40rem
     h1
         font-size: 2rem
         margin-bottom: 1.5rem
@@ -29,10 +31,14 @@
             margin-bottom: 2rem
     h2
         color: $green
+        font-size: 1.75rem
+        margin-bottom: 1rem
+    h3
+        color: $green
         font-size: 1.5rem
-        margin-bottom: .5rem
+        margin-bottom: 1rem
     p
-        margin-bottom: .5rem
+        margin-bottom: 1.5rem
         line-height: 1.5rem
     .post-list
         margin-top: 3rem
