@@ -12,7 +12,7 @@ My name is Ulises, and I’m an interaction designer living in Montreal, Canada,
 
 If you want to discuss new technologies, wearables, IoT, privacy or cybersecurity topics, feel free to reach out.
 
-## About my notes
+## About my [notes](/notes)
 
 These are about things I haven’t fully understand, ~~all~~ some might be wrong, the main idea is to put them out there and see if someone relates to them. My primary language is not english and I live in a bilingual city, that might affect the way the content is created ;)
 
