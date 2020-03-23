@@ -25,6 +25,15 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+ <script src="https://utteranc.es/client.js"
+        repo="ctrl-b/ctrl-b.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="dark-blue"
+        crossorigin="anonymous"
+        async>
+  </script> 
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   {%- include footer.html -%}
 </article>
