@@ -2,6 +2,7 @@
 layout: post
 title:  "User centred design and agile methodologies"
 categories: notes
+tags: [work]
 ---
 
 In my short professional career, I’ve seen and worked in multiple agile methodologies, none of them have achieved the goal of releasing fully functional products. What I’ve seen is unfinished work carry on a sprint to sprint, issues get closed with few pieces of the original functionality. And problems will be addressed in future iterations; that’s the purpose of agile, right?
