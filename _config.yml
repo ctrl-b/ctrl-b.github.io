@@ -23,7 +23,7 @@ email: hola@latelier.io
 description: >- # this means to ignore newlines until "baseurl:"
   Find my notes aboyt Interaction desgin, user experience, research or just the thing I haven't fully understand.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ulisesrojas.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ulises.website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  ctrl-b
 mastodon_username: ulises
