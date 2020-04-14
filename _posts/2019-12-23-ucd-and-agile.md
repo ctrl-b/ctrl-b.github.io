@@ -1,40 +1,17 @@
 ---
 layout: post
-title:  "User centred design and agile methodologies"
-categories: notes
+title:  "UCD and agile methodologies (update)"
+categories: notes                                                                                                                                                   
+date: 2020-04-14
 tags: [work]
 ---
 
-In my short professional career, I’ve seen and worked in multiple agile methodologies, none of them have achieved the goal of releasing fully functional products. What I’ve seen is unfinished work carry on a sprint to sprint, issues get closed with few pieces of the original functionality. And problems will be addressed in future iterations; that’s the purpose of agile, right?
+My perspective about how agile methodologies work with UX has changed. Now I see how it can be done, how UX people can be integrated into the development process, and how this role supports the work that needs to be done and how devs can help the UX work to happen.
 
-I’ve also seen dev workflows tight to deliver more in less time kind of mentality –probably a future post on this. Additional to that, aesthetics and UX –commonly confused over UI. tagged as “nice to have.” What is nice to have, anyway?
+One of the reasons it works is because there’s an entity that requires procedures to be in place and followed. It is complicated, but what I’ve seen is that it is possible. It requires a few things.
 
-## First question
+Clear rules; it works better with small teams, leadership, commitment and teamwork.
 
-Why user experience/research needs to align with all those dev methodologies?
+The work to align different processes will require time and a few iterations. Proactiveness from the team is also essential; this one needs to be build step by step.
 
-## Reality check (cont.)
-
-Agile methodologies are hard to sell, complicated to embrace, and most of the time, they come when morality is low within the team. In some cases, those agile methodologies end up being traditional workflows with an agile *facade*.
-
-## Second question
-
-Why released products feel like unfinished products?
-
-## Reality check (cont.)
-
-Thanks to agile, we keep iterating until the product is more or less what was initially being planned. Ask your users what they think about it. It’s worth mentioning that the majority of the projects I’ve worked on are from mid-big size companies transitioning to agile. So “unfinished” products are not equal to users finding alternatives, most of the time user don’t have the opportunity or is hard to find them. Startups are disrupting, but because of the way they operate, they follow the same pattern. They feel the need to prove value as soon as possible.
-
-## Someone said once
-
-> If you are going to do one thing, make it sure to do it right.
-
-That should be the way to embrace agile. Start or revamp your product doing one thing at a time, then iterate on top of it. That means that a second functionally can be added next, and fixes/enhancements applied to the first one. Some might say that is impossible, but this is true when we build monolith products instead of taking a modular approach.
-
-## Third question 
-
-Dev teams tend to put all functionalities right in front of users eyeballs, why not one at a time at the right moment?
-
-##  Last question
-
-After all. Why we keep trying to align user experience to the agile workflow when it is clear that this last one needs to be fixed first.
+[Previous↗ thoughts on this topic](https://github.com/ctrl-b/ctrl-b.github.io/commit/e13dfdf020d0ac444928cd8fe037b9232502fac2?short_path=2d3118e#diff-2d3118ed8eb603876ffdd2a560b9f7ea)
