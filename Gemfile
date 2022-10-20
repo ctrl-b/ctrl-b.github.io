@@ -29,5 +29,5 @@ end
 #gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 
-gem "nokogiri", "1.10.8"
+gem "nokogiri", "1.13.9"
 gem 'faraday', '0.17.3'
